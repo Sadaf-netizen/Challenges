@@ -22,7 +22,9 @@ let myName = "Sadaf"
 let myAge = "30"
 let favouriteColour = "Purple"
 console.log(`Hi, my name is ${myName}. I'm ${myAge} and my favourite colour is ${favouriteColour}.`)
+
 let breakFast = "Fried Eggs"
 let  lunch = "Biryani"
 let dinner = "Grilled Chicken"
 console.log(`In the breakfast I had ${breakFast}. I ate ${lunch} in lunch and for the dinner I had ${dinner}.`)
+// test for github
