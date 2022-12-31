@@ -67,5 +67,5 @@ const checkStock = (productCode, quantity, originalPrice) => {
         console.log("Don't order stock")
     }
 }
-checkStock(345678,200,100)
+checkStock(345678,200,100) //product code, quantity  and original price
 
