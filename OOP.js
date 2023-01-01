@@ -1,10 +1,10 @@
-class Pet {
+class Pet { //Pet is class
     constructor (name,age, type, breed, colour, time) {
-        this.name = name;
+        this.name = name; // this.name is object content
         this.age = age;
         this.type = type;
         this.breed = breed;
-        this,colour = colour;
+        this.colour = colour;
         this.lastfed = time;
     }
     feedPet (time) {
@@ -12,6 +12,8 @@ class Pet {
    return `Last feed updated to:${this.lastfed} for ${this.name}`;
     }
 }
+const bella3 = new Pet("Bella", 2, "Dog", "GS", "B&t", "08:00");
+console.log(bella3.feedPet("15:00"));
 
 class PetMeds extends Pet {
     constructor (name, age, type, breed, colour, time, mtime) {
@@ -23,14 +25,15 @@ class PetMeds extends Pet {
    return `Last feed updated to:${this.lastfed} for ${this.name}`;
     }
     }
-
-
-const bella = new Pet("bella", 2, "Dog", "GS","B&T","08:00");
-const dojo = new PetMeds("dojo",3, "Cat", "PS", "T&B", "05:00","13:00");
-const betty = new Pet ("betty", 4, "Dog", "SH", "White", "10;00");
+const bella = new Pet("Bella", 2, "Dog", "GS","B&T","08:00");
 console.log(bella.feedPet("15:00"));
+
+const dojo = new PetMeds("Dojo",3, "Cat", "PS", "T&B", "05:00","13:00");
 console.log(dojo.feedPet("18:00"));
+
+const betty = new Pet ("Betty", 4, "Dog", "SH", "White", "10;00");
 console.log(betty.feedPet("14:00"));
+
 
 class Pet1 {
         constructor(name, age, type, breed, colour, time) {
@@ -49,5 +52,7 @@ class Pet1 {
             return `Last feed updated to: ${this.lastFed} for ${this.name}`;
          }
         }
-        const bella1 = new Pet("bella", 2, "Dog", "GS","B&T","08:00");
-        console.log(bella.petInfo);
+        const bella1 = new Pet("Bella", 2, "Dog", "GS","B&T","08:00");
+        console.log(bella1.petInfo);
+
+        
