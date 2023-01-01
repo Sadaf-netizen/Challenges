@@ -1,5 +1,5 @@
 const person = {
-    firstName: "Sally",
+  firstName: "Sally",  // we store data inside the object using key value pair
     lastName: "Evans",
     age: 27,
 occupation: "sales Assistant",
@@ -22,7 +22,7 @@ const pet = {
     typeOfPet: "German Shepherd",
     age: 1,
     colour:"White",
-    features: ["well behaved","friendly", "loyal", "courageous"]
+    features: ["well behaved","friendly", "loyal", "courageous"] // data can be any type it can be array
 
 }
 
@@ -56,6 +56,7 @@ homeOwner: false,
 hobbies:["tennis" ,"gardening", "bungee", "jumping"]
 
 }
+
  if (day === "Saturday" || day === "Sunday") {
     console.log (`Great it's ${day},let's play £{person.hobbies[0]}!`)
  }else{
@@ -70,8 +71,8 @@ hobbies:["tennis" ,"gardening", "bungee", "jumping"]
     marries: false,
     homeOwner: true,
     hobbies:["tennis" ,"gardening", "bungee", "jumping"],
-    marketingOp () {
-         if (this.homeOwner == false && this.age > 25) {
+    marketingOp () { // when we use functionwithinin object we call them method
+          if (this.homeOwner == false && this.age > 25) { // Home owner was outside of function scoop so we use this key word this.homeowner
             return "Send mortgage offer email."
         }
         else if (this.homeOwner == false && this.age > 25) { 
