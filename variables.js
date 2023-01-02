@@ -59,12 +59,12 @@ let dinner = "Grilled Chicken"
 
 //  extension
 let todaytDate1 = new Date()
- let nextBirthday1 = new Date("16/5/2023")
+ let nextBirthday1 = new Date("16/5/1986")
 
  const changeInTime = today.getTime() - dob.getTime() 
  const changeInDays = ChangeInTime/ (1000*60*60*24)
- const roundedChangedInDays1 = Math.round(changeInDays)
- console.log(`The total no of milliseconds between today and your nect birthday is ${difTime1} millisceonds.`)
+ const roundedChangedInDays = Math.round(changeInDays)
+ console.log(`The total no of milliseconds between today and your next birthday is ${difTime1} millisceonds.`)
  console.log(`The total no of days between your birthday and todays date is ${changeInDays} days.`)
  console.log(`The total rounded no of days between your date of birth and today is ${roundedChangedInDays1} days.`)
 
